@@ -1,0 +1,29 @@
+img {
+    width: 300px;
+    animation: moveCar 8s infinite linear;
+    position: absolute;
+    bottom: 0;
+    top: 200;
+}
+@keyframes moveCar {
+    0% {
+        left: 0px;
+    }
+    50% {
+        top: 1000px;
+    }
+    75% {
+        bottom: 1000px;
+    }
+    75% {
+        right: 1000px;
+    }
+    100% {
+        left: 3000px;
+    }
+}
+.car {
+    position: relative;
+    width: 100%;
+    top: 200px;
+}
